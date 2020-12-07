@@ -4,19 +4,28 @@ body {
 }
 h1 {
     color: #8eb69b;
-    text-align: center;
+    text-align: right;
+    margin-top: 100px;
     font-family: 'Texturina', serif;
 }
 h2 {
-    color: #a54d60;
+    color: #8eb69b;
     text-align: center;
+    margin-top: 0px;
     font-family: 'Texturina', serif;
 }
 p {
-    background-color: #FFEFd8;
-    color: #8451e2;
-    text-align: right;
-    border: 3px groove #FFEFd8;
+    color: #ce788a;
+    text-align: left;
+    font-family: 'Lora', serif;
+    padding: 10px;
+    margin: 70;
+}
+h5 {
+    color: #ce788a;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 0.4em;
 }
 .center {
     display: block;
@@ -25,12 +34,29 @@ p {
     margin-right: auto;
     width: 50%;
 }
-footer {
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+#hp  {
+    float: left;    
+     margin: 150 15 0 15;
+    }  
+header {
+    position: fixed;
+    background-color: #FFEFd8;
 }
+.fixed-header{
+    width: "100%";
+    position: fixed;        
+}
+.sidebar {
+    margin: 20 20 20 20;
+    padding: 20;
+    width: 300px;
+    position: fixed;
+  }
 /* grid layout */
 .column {
     float: left;
@@ -42,17 +68,12 @@ footer {
     clear: both;
     display: table;
 }
-body {
-    text-align: center;
-    font-family: "Dosis";
-}
 .grid-container {
     display: grid;
     grid-template-columns: 150px 20px 350px;
     grid-template-rows: auto;
 }
 .grid-element {
-    background-color: #444;
     color: #fff;
     font-size: 2em;
     padding: 10%;
@@ -68,13 +89,6 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    background: #69F;
-}
-p {
-    color: black;
-    background: #fff;
-    padding: 10px;
-    margin: 0;
 }
 .box{
     width:auto;
@@ -83,5 +97,11 @@ p {
 }
 
 img {
-    margin-top:30px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
+
+footer {
+    text-align: left;
+    padding: 35px;
+    background-color: #FFEFd8;
