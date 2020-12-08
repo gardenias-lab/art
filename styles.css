@@ -6,6 +6,7 @@ h1 {
     color: #8eb69b;
     text-align: right;
     margin-top: 100px;
+    margin-right: 70px;
     font-family: 'Texturina', serif;
 }
 h2 {
@@ -14,18 +15,32 @@ h2 {
     margin-top: 0px;
     font-family: 'Texturina', serif;
 }
-p {
+h3 {
     color: #ce788a;
     text-align: left;
     font-family: 'Lora', serif;
-    padding: 10px;
-    margin: 70;
+}
+h4 {
+    color: #ce788a;
+    text-align: left;
+    font-family: 'Lora', serif;
 }
 h5 {
     color: #ce788a;
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 0.4em;
+}
+p {
+    color: #ce788a;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    padding: 10px;
+    margin-left: 90;
+    margin-right: 90;
+    line-height: 32px;
+}
+.indented {text-indent: 3em;
 }
 .center {
     display: block;
@@ -96,12 +111,16 @@ header {
     margin-right:20px;
 }
 
-img {
-    margin-top:5px;
-    margin-bottom:5px;
+.img {
+    margin-top:10px;
+    margin-bottom:10px;
 }
-
-footer {
+.img2 {
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 30px
+}
+.footer {
     text-align: left;
     padding: 35px;
     background-color: #FFEFd8;
