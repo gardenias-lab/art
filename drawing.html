@@ -1,25 +1,33 @@
 <html>
+<head>
     <link rel = "stylesheet"
     type = "text/css"
     href = "styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
      <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Merriweather:ital@1&family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
- 
+ <style>
+    .table, th, td, tr {
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        table-layout:fixed;
+    }
+    img{
+        width:300px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    </style>
+</head>
+
 <body>
-<div class="grid-container">
-    <div class="grid-element element-a">
-        <div class="row">
-            <div class="column">
-                <img src="still.jpg" alt="still life" width="700px">
-            </div>
-            <div class="grid-element element-b">
-                <div class="column">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<table>
+        <tr>
+            <td><img src="still.jpg" alt="still life"></td>
+        </tr>
+</table>
 </body>
 </html>
