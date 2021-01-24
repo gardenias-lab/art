@@ -1,40 +1,46 @@
 body {
-    background-color: #FFEFd8;
-    color: #FFEFd8;
+    background-color: #acbada;
+    color: #493b52;
 }
 h1 {
-    color: #8eb69b;
+    color: #ffffff;
     text-align: right;
     margin-top: 100px;
     margin-right: 70px;
-    font-family: 'Texturina', serif;
+    font-family: 'Gruppo', cursive;
 }
 h2 {
-    color: #8eb69b;
+    color: #ffffff;
     text-align: center;
     margin-top: 0px;
-    font-family: 'Texturina', serif;
+    font-family: 'Gruppo', cursive;
 }
 h3 {
-    color: #ce788a;
+    color: #ffffff;
     text-align: left;
-    font-family: 'Lora', serif;
+    font-family: 'Gruppo', cursive;
 }
 h4 {
-    color: #ce788a;
+    color: #ffffff;
     text-align: left;
-    font-family: 'Lora', serif;
+    font-family: 'Gruppo', cursive;
 }
 h5 {
-    color: #ce788a;
+    color: #ffffff;
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Gruppo', cursive;
     font-size: 0.4em;
 }
+h6 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Gruppo', cursive;
+    font-size: 0.5em;
+}
 p {
-    color: #ce788a;
+    color: #ffffff;
     text-align: justify;
-    font-family: 'Lora', serif;
+    font-family: 'Gruppo', cursive;
     padding: 10px;
     margin-left: 90;
     margin-right: 90;
@@ -60,7 +66,6 @@ img.sticky {
     }  
 header {
     position: fixed;
-    background-color: #FFEFd8;
 }
 .fixed-header{
     width: "100%";
@@ -124,3 +129,4 @@ header {
     text-align: left;
     padding: 35px;
     background-color: #FFEFd8;
+}
