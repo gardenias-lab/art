@@ -1,7 +1,9 @@
 body {
     background-color: #9cc09b;
-    color: #493b52;
+    background: url(starsbg.gif);
+    background-size: 76%
 }
+
 h1 {
     color: #ffffff;
     text-align: right;
@@ -38,7 +40,7 @@ h6 {
     font-size: 0.5em;
 }
 p {
-    color: #4380a3;
+    color: #549dc7;
     text-align: justify;
     font-family: "Courier New";
     padding: 10px;
@@ -96,7 +98,6 @@ header {
     transform-origin: center;
     filter: drop-shadow(1em 1em 1.5em rgb(235, 85, 185));
 }
-
 #sword {
     animation-name: "sword.gif";
     animation: straight 40s cubic-bezier(0.9, 0.7, 0.7, 0.7) infinite;
@@ -104,6 +105,14 @@ header {
     z-index: 1;
     transform-origin: center;
     filter: drop-shadow(1em 1em 1.5em rgb(175, 85, 235));
+}
+#ufo {
+    animation-name: "ufo.gif";
+    animation: straight2 15s cubic-bezier(0.68, 0.68, 0, 0) infinite;
+    position: absolute;
+    z-index: 1;
+    transform-origin: center;
+    filter: drop-shadow(1em 1em 1.5em rgb(235, 85, 185));
 }
 @keyframes diagonal
 {
@@ -135,5 +144,25 @@ header {
     transform: translatex(0%) translatey(1200%) scaleX(-1);
     }
 }
-
+@keyframes straight2
+{
+    0% {
+    transform: scaleX(1) translatex(800%) translatey(200%);
+    }
+    25% {
+    transform: translatex(1700%) translatey(200%)scaleX(1);
+    }
+    50% {
+    transform: translatex(1700%) translatey(1200%) scaleX(1);
+    } 
+    74.9% {
+    transform: translatex(1700%) translatey(1500%) scaleX(1);
+    }     
+    75% {
+    transform: translatex(1700%) translatey(1500%) scaleX(-1);
+    }   
+    100% {
+    transform: translatex(800%) translatey(1500%) scaleX(-1);
+    }
+}
 
