@@ -1,9 +1,8 @@
 body {
     background-color: #9cc09b;
     background: url(starsbg.gif);
-    background-size: 76%
+    background-size: 79%
 }
-
 h1 {
     color: #ffffff;
     text-align: right;
@@ -23,24 +22,14 @@ h3 {
     font-family: 'Gruppo', cursive;
 }
 h4 {
-    color: #ffffff;
-    text-align: right;
-    font-family: 'Gruppo', cursive;
-}
-h5 {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Gruppo', cursive;
-    font-size: 1.0em;
-}
-h6 {
-    color: #ffffff;
+    color: rgb(97, 240, 240);
     text-align: left;
-    font-family: 'Gruppo', cursive;
-    font-size: 0.5em;
+    font-family: "Courier New"
 }
+
 p {
     color: #549dc7;
+    background-color: rgba(0, 92, 0, 0.836);
     text-align: justify;
     font-family: "Courier New";
     padding: 10px;
