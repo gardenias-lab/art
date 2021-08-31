@@ -1,0 +1,29 @@
+<html>
+<link rel="icon" type="image/png" href="gardenias logo.png" />
+
+<head>
+    <title>欢迎你再来 Gardenia's</title>
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "styles.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div class="topnav">
+  <a class="active" href="/">home</a>
+  <a href="about">about</a>
+  </div>
+    <img id="ufo" src="ufo.gif" alt="kirby landing" width="3.8%">
+    <a href="lab">
+    <img src="gardenias lab.png" alt="gardenia's lab" style="width:30%" class="center"> </a>
+    <a href="diary">
+    <img src="gardenias diary.png" alt="gardenia's diary" style="width:30%" class="center"> </a>
+
+</body>
+
+</html>
