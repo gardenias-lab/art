@@ -125,9 +125,11 @@ p {
 .main-nav {
   width: 80%;
   margin: 0 auto;
+  font-family: 'Azeret Mono', monospace;
 }
 header {
-  background: #9cc09b;
+  background: #000000;
+  padding: 10px;
 }
 header::after {
   content: '';
@@ -141,6 +143,7 @@ header::after {
 }
 nav-bar {
   float: right;
+  font-family: 'Azeret Mono', monospace;
 }
 .top-gradient homepage {
   background-color: #9cc09b;
