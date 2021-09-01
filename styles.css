@@ -152,7 +152,7 @@ img.sticky {
   font-family: 'Azeret Mono', monospace;
 }
 header {
-  background: "black";
+  background: "#000000";
   padding: 10px;
 }
 header::after {
