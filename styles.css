@@ -153,7 +153,7 @@ img.sticky {
 }
 header {
   background: "black";
-  padding: 7px;
+  padding: 10px;
 }
 header::after {
   content: '';
