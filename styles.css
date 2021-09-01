@@ -39,13 +39,6 @@ p {
 }
 .indented {text-indent: 3em;
 }
-.center {
-    display: block;
-    margin-top: 100;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 img.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -77,7 +70,6 @@ img.sticky {
     padding: 35px;
     background-color: #FFEFd8;
 }
-
 #kirby {
     animation-name: "kirby.gif";
     animation: diagonal 30s cubic-bezier(0.68, 0.68, 0, 0) infinite;
@@ -161,17 +153,19 @@ img.sticky {
 }
 header {
   background: "black";
-  padding: 5px;
+  padding: 7px;
 }
 header::after {
   content: '';
   display: table;
   clear: both;
 }
-
 .logo {
-  align: center;
   padding: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 .nav-bar {
   float: right;
