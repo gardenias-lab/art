@@ -46,44 +46,6 @@ p {
     margin-right: auto;
     width: 50%;
 }
-img.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-#hp  {
-    float: left;
-     margin: 150 15 0 15;
-    }
-header {
-    position: fixed;
-}
-.fixed-header{
-    width: "100%";
-    position: fixed;
-}
-.sidebar {
-    margin: 20 20 20 20;
-    padding: 20;
-    width: 300px;
-    position: fixed;
-}
-.bar {
-  width: 300px;
-  height: 100px
-}
-
-.box{
-    width:auto;
-    float:right;
-    margin-right:20px;
-}
-.footer {
-    text-align: left;
-    padding: 35px;
-    background-color: #FFEFd8;
-}
-
 #kirby {
     animation-name: "kirby.gif";
     animation: diagonal 30s cubic-bezier(0.68, 0.68, 0, 0) infinite;
@@ -158,4 +120,28 @@ header {
     100% {
     transform: translatex(800%) translatey(1500%) scaleX(-1);
     }
+}
+
+.main-nav {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: #9cc09b;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: center;
+  padding: 10px 0;
+}
+nav {
+  float: right;
+}
+.top-gradient homepage {
+  background-color: #9cc09b;
 }
