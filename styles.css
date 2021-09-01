@@ -143,8 +143,6 @@ header::after {
 }
 nav-bar {
   float: right;
+  margin: 0 auto;
   font-family: 'Azeret Mono', monospace;
-}
-.top-gradient homepage {
-  background-color: #9cc09b;
 }
